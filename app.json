@@ -1,0 +1,8 @@
+{
+  "name": "Jerry Ryan Dream Foundation",
+  "description": "GGRDF Site",
+  "repository": "https://github.com/heroku/node-js-getting-started",
+  "logo": "",
+  "keywords": [],
+  "image": "heroku/nodejs"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ggrdf",
+  "version": "0.0.1",
+  "description": "Jerry Ryan Dream Foundation site",
+  "main": "index.js",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamjmcintyre/ggrdf.git"
+  },
+  "author": "Adam J. McIntyre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamjmcintyre/ggrdf/issues"
+  },
+  "homepage": "https://github.com/adamjmcintyre/ggrdf#readme",
+  "dependencies": {
+    "ejs": "^2.4.2",
+    "express": "^4.14.0"
+  }
+}
