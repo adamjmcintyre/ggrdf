@@ -1,1 +1,96 @@
-body{ }
+html *{
+    box-sizing: border-box;
+}
+
+body{
+    color: #342E1C;
+    font: 18px/2 "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background: #342E1C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.33);
+    height: 75px;
+    line-height: 100px;
+    padding: 0 15%;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+nav ol{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+    flex: 1 0 auto;
+    height: 100%;
+    text-align: center;
+}
+
+nav li:nth-of-type(2){
+    padding-right: 5em;
+}
+
+nav li:nth-of-type(3){
+    padding-left: 7.5em;
+}
+
+nav a{
+    color: #C7C3B3;
+    font-size: 20px;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    background: #6D695C;
+    border-radius: 5px;
+}
+
+nav img{
+    border: 6px solid #C7C3B3;
+    border-radius: 40% 40% 50% 50%;
+    bottom: calc((175px / -2) - 25px);
+    box-shadow: 0 0 4px #342E1C;
+    height: 175px;
+    left: calc(50% - (125px/2));
+    position: absolute;
+    width: 175px;
+}
+
+main{
+    padding-top: 100px;
+    margin: 0 15%;
+}
+
+main h1{
+    font-family: "Georgia", serif;
+    margin-top: 0;
+}
+
+main h1:first-letter{
+    font-size: 150%;
+}
+
+main section{
+    padding: 2.5em 5em;
+    position: relative;
+}
+
+main section + section::before{
+    background-color: #6d695c;
+    content: "";
+    height: 0.5em;
+    left: 15%;
+    position: absolute;
+    top: 0;
+    width: 70%
+}
