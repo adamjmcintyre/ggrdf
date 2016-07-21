@@ -58,16 +58,16 @@ nav a:hover{
 nav img{
     border: 6px solid #C7C3B3;
     border-radius: 40% 40% 50% 50%;
-    bottom: calc((175px / -2) - 25px);
+    bottom: calc(125px / -2);
     box-shadow: 0 0 4px #342E1C;
-    height: 175px;
+    height: 125px;
     left: calc(50% - (125px/2));
     position: absolute;
-    width: 175px;
+    width: 125px;
 }
 
 main{
-    padding-top: 100px;
+    padding-top: 75px;
 }
 
 main h1{
@@ -83,6 +83,13 @@ main section{
     margin: 0 15%;
     padding: 2.5em 5em;
     position: relative;
+}
+
+main .collage{
+    background: #eee;
+    height: 600px;
+    margin: 0 0 2.5em;
+    padding: 0;
 }
 
 main section + section::before{
