@@ -68,7 +68,6 @@ nav img{
 
 main{
     padding-top: 100px;
-    margin: 0 15%;
 }
 
 main h1{
@@ -81,6 +80,7 @@ main h1:first-letter{
 }
 
 main section{
+    margin: 0 15%;
     padding: 2.5em 5em;
     position: relative;
 }
