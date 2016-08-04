@@ -40,6 +40,13 @@
             <p>Curabitur vel purus porta arcu mollis sagittis id vitae tellus. Maecenas iaculis, nulla eget aliquet ultricies, ante tortor ultrices ipsum, at ultrices ligula urna in ex. Donec euismod dui at quam varius lacinia. Curabitur nec semper elit. Quisque non interdum sem. Etiam non dapibus odio. Integer ac ipsum elementum, accumsan urna quis, tincidunt sem.
         </section>
     </main>
-
+<script>
+    var $img = document.querySelectorAll('.collage img');
+    Array.prototype.slice.apply($img).forEach(function(item){
+        var rotation = Math.round(Math.random() * 15) + 5;
+        var offset = Math.round(Math.random() * 2) < 2 ? -1 : 1;
+        item.style.transform = 'rotate(' + (rotation * offset) + 'deg)';
+    });
+</script>
 </body>
 </html>

@@ -115,4 +115,7 @@ main section + section::before{
     height: auto;
     margin-bottom: 0.25em;
     width: 100%;
+    -webkit-column-break-inside: avoid;
+              page-break-inside: avoid;
+                   break-inside: avoid;    
 }
